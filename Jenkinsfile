@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        USERNAME = 'cmd'
+        USERNAME = 'wilso'
     }
     options {
         disableConcurrentBuilds()
