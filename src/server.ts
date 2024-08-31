@@ -20,5 +20,5 @@ app.get("/operar", (req, res) => {
   const resultado = operar(oper, a, b);
   res.send(`el resultado de la operacion ${oper} de ${a} y ${b} es ${resultado}`);
 });
-
+//test
 export default app;
